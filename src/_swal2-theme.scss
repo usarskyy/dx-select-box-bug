@@ -1,0 +1,59 @@
+/*IMPORTANT: This file should have end line of sequence: LF. Because resolve-url-loader() cannot deal with CRLF when url() statements are multiline */
+@import 'sweetalert2/src/variables';
+
+// BOX MODEL
+$swal2-border-radius: 0 !important;
+$swal2-box-shadow: none !important;
+$swal2-padding: var(--spacingLarge) !important;
+
+// BACKDROP
+$swal2-backdrop-transition: initial !important;
+
+// TITLE
+$swal2-title-margin: 0 0 0.4em !default;
+$swal2-title-color: #000 !important;
+$swal2-title-font-size: 20px !important;
+
+// CONTENT
+$swal2-content-font-size: 16px !important;
+
+// INPUT
+$swal2-input-border-radius: 0 !important;
+$swal2-input-box-shadow: none !important;
+$swal2-input-box-shadow-focus: none !important;
+$swal2-input-transition: initial !important;
+
+// BUTTONS
+$swal2-confirm-button-border-radius: 0 !important;
+$swal2-confirm-button-background-color: var(--azure) !important;
+$swal2-cancel-button-border-radius: 0 !important;
+
+// ANIMATIONS
+$swal2-show-animation: none !important;
+$swal2-hide-animation: none !important;
+$swal2-success-line-tip-animation: none !important;
+$swal2-success-line-long-animation: none !important;
+$swal2-success-circular-line-animation: none !important;
+$swal2-error-icon-animation: none !important;
+$swal2-error-x-mark-animation: none !important;
+
+// CLOSE BUTTON
+$swal2-close-button-transition: initial !important;
+
+// TOASTS
+$swal2-toast-show-animation: none !important;
+$swal2-toast-hide-animation: none !important;
+$swal2-toast-success-line-tip-animation: none !important;
+$swal2-toast-success-line-long-animation: none !important;
+$swal2-toast-border: 1px solid black;
+$swal2-toast-box-shadow: none !important;
+
+// TYPOGRAPHY
+$swal2-font: var(--firaSans) !important;
+$swal2-font-size: 1rem !important;
+
+@import 'sweetalert2/src/sweetalert2';
+
+.swal2-title {
+    font-weight: 500 !important;
+}

@@ -1,0 +1,22 @@
+<div class="popupWindow">
+    <div class="header">
+        <span class="headerText">
+            <ng-container *ngIf="header">
+                {{ header }}
+            </ng-container>
+        </span>
+        <div class="closeButton" (click)="close()">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="content">
+        <ng-container *ngIf="portal; else elseTemplate">
+            <ng-template [cdkPortalOutlet]="portal"></ng-template>
+        </ng-container>
+        <ng-template #elseTemplate>
+            <p>
+                No Content.
+            </p>
+        </ng-template>
+    </div>
+</div>

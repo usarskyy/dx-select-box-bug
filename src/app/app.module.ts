@@ -3,7 +3,7 @@ import { PortalModule } from '@angular/cdk/portal';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DxSelectBoxModule } from 'devextreme-angular';
+import { DxLookupModule, DxSelectBoxModule } from 'devextreme-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +23,7 @@ import { PopupWindowComponent } from './popup-window/popup-window.component';
               CommonModule,
               OverlayModule,
               PortalModule,
+              DxLookupModule,
             ],
   providers: [],
   bootstrap: [AppComponent]
